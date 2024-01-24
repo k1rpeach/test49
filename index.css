@@ -1,3 +1,56 @@
-h1 {
-    color: rgb(0, 128, 240);
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(116, 118, 119);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    text-align: center;
+    
+}
+
+input{
+    display: block;
+    width: 90%;
+    background-color: rgb(0, 132, 255);
+    opacity: 0.5;
+    outline: none;
+    padding: 5px 3px;
+    text-align: center;
+}
+
+.registrForm {
+    width: 250px;
+    border: 2px solid rgb(6, 250, 6);
+    margin: 250px auto 0 ;
+    background-color: rgb(94, 91, 219);
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+
+.registrForm h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.registrForm button{
+    display: block;
+    width: 170px;
+    margin: 15px auto 0;
+    padding: 5px;
+    background-color: rgb(9, 255, 0);
+    border: 2px solid rgb(255, 238, 0);
+    font-size: medium;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+input.error{
+    border:2px solid red
 }
